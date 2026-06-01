@@ -1,6 +1,6 @@
 # OSC2 Studio: OpenSCENARIO 2 Online Development and Visualization Platform
 
-**Access Link:** [https://osc2studio.online/about.html](https://osc2studio.online/about.html)
+**Access Link:** [https://osc2studio.online/about.html](https://osc2studio.online)
 
 ![OSC2 Studio](./image.png)
 
@@ -38,7 +38,7 @@ Supports light/dark theme switching, with the interface available in English, Ch
 
 ## Quick Start
 
-1.  **Open in Browser**: Visit [https://osc2studio.online/about.html](https://osc2studio.online/about.html) directly, no installation needed.
+1.  **Open in Browser**: Visit [https://osc2studio.online/about.html](https://osc2studio.online) directly, no installation needed.
 2.  **Log In or Try as Guest**: Log in to your account or continue as a guest to start editing immediately. **Please note: Guests cannot use the preview feature; only registered users can access the scene preview functionality.**
 3.  **Write Code**: Write OSC2 code in the professional editor with intelligent suggestions.
 4.  **Real-time Validation**: Syntax and semantic errors are highlighted instantly, with support for importing standard libraries for deep checking.
