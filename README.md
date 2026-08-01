@@ -1,6 +1,6 @@
 # OSC2 Studio: OpenSCENARIO 2 Online Development and Visualization Platform
 
-**Access Link:** [https://osc2studio.online/about.html](https://osc2studio.online)
+> ⚠️ **Notice:** This repository is for **demonstration purposes only**. To use the actual OSC2 Studio product, please visit [https://osc2studio.online](https://osc2studio.online).
 
 ![OSC2 Studio](./image.png)
 
@@ -18,8 +18,8 @@ The foundation of our work is the **strict implementation of the official OpenSC
 
 ## Core Features
 
-### 🎬 Scene and Map Visualization (Initial Support, Continuously Improving)
-Transform your code into intuitive 3D scenes directly within the editor — no tool switching required. The current version provides **initial scene visualization capabilities**, allowing you to preview maps and vehicle movements. **Dynamic scene visualization (e.g., real-time playback of motion) is under active development**. More rich visualization features are coming soon.
+### 🎬 3D Scene Preview
+Transform your code into intuitive 3D scenes directly within the editor — no tool switching required. Preview maps, vehicle movements, and dynamic playback of motion in real time, so you can validate your scenario logic at a glance.
 
 ### ✅ Real-time Syntax and Semantic Checking Based on the Official Standard
 Get real-time feedback on syntax and semantic errors. It not only supports precise syntax checking, but also **supports importing standard libraries for complete semantic checking** — the built-in engine can perform in-depth validation of types, units, references, and more, strictly following the official OpenSCENARIO 2 specification to eliminate errors early.
@@ -38,11 +38,11 @@ Supports light/dark theme switching, with the interface available in English, Ch
 
 ## Quick Start
 
-1.  **Open in Browser**: Visit [https://osc2studio.online/about.html](https://osc2studio.online) directly, no installation needed.
+1.  **Open in Browser**: Visit [https://osc2studio.online](https://osc2studio.online) directly, no installation needed.
 2.  **Log In or Try as Guest**: Log in to your account or continue as a guest to start editing immediately. **Please note: Guests cannot use the preview feature; only registered users can access the scene preview functionality.**
 3.  **Write Code**: Write OSC2 code in the professional editor with intelligent suggestions.
 4.  **Real-time Validation**: Syntax and semantic errors are highlighted instantly, with support for importing standard libraries for deep checking.
-5.  **Visual Validation**: After logging in, click preview to see the 3D map effect of your scenario. (Currently supports map visualization; dynamic scene visualization is under development.)
+5.  **Visual Validation**: After logging in, click preview to see the 3D scene and dynamic playback of your scenario.
 6.  **Export for Use**: Download your completed scenario file for your simulation workflow.
 
 We are actively developing more features to support more complex scenario definitions, a richer action library, and deeper visualization interactions. OSC2 Studio is committed to being your capable companion in exploring and creating OpenSCENARIO 2 scenarios.
