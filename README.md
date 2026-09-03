@@ -1,48 +1,52 @@
 # OSC2 Studio: OpenSCENARIO 2 Online Development and Visualization Platform
 
-> ⚠️ **Notice:** This repository is for **demonstration purposes only**. To use the actual OSC2 Studio product, please visit [https://osc2studio.online](https://osc2studio.online).
-
 ![OSC2 Studio](./image.png)
 
 ---
 
-**OSC2 Studio** is a web-based integrated development environment for OpenSCENARIO 2 (OSC2, OpenScenario DSL). It is more than just an editor — it is a comprehensive platform that combines **official standard validation**, **real-time syntax and semantic checking**, and **3D scene preview**, designed to give you an efficient, zero-installation, out-of-the-box scenario development experience.
+**OSC2 Studio** is a web-based integrated development environment for OpenSCENARIO 2 (OSC2). It combines a professional editor, real-time syntax and semantic validation, intelligent code completion, 3D scene preview, and OpenDRIVE map exploration — all in your browser with zero installation.
 
-## Core Mission: Strict Official Standard Compliance and Continuous Evolution
-
-The foundation of our work is the **strict implementation of the official OpenSCENARIO 2 standard**. The editor's syntax highlighting, intelligent code completion, and underlying real-time error checking are all powered by a high-performance C++ core compiled to WebAssembly, ensuring that everything from parsing to semantic analysis accurately aligns with the official specification.
-
-> **Project Status: 🚀 Under Active Development**
->
-> OSC2 Studio is in a phase of rapid iteration and continuous evolution. We are constantly expanding its capabilities, and many of the features described below are being actively refined and enhanced to build an increasingly powerful OSC2 development platform for you.
+> **Status: 🚀 Under Active Development** — latest release: [v0.0.3](https://github.com/osc2studio/osc2studio-frontend/releases/tag/v0.0.3)
 
 ## Core Features
 
-### 🎬 3D Scene Preview
-Transform your code into intuitive 3D scenes directly within the editor — no tool switching required. Preview maps, vehicle movements, and dynamic playback of motion in real time, so you can validate your scenario logic at a glance.
+### 🗺️ OpenDRIVE Map Preview
+Import OpenDRIVE (.xodr) road network files and preview road layouts, intersections, and lane markings in interactive 3D. Double-click any map file to explore — no scenario required.
 
-### ✅ Real-time Syntax and Semantic Checking Based on the Official Standard
-Get real-time feedback on syntax and semantic errors. It not only supports precise syntax checking, but also **supports importing standard libraries for complete semantic checking** — the built-in engine can perform in-depth validation of types, units, references, and more, strictly following the official OpenSCENARIO 2 specification to eliminate errors early.
+### 🎬 3D Scene Preview
+Preview your OpenScenario2 scenarios in real-time 3D directly within the editor. Visualize vehicle movements, road layouts, and event sequences to validate your scenario logic at a glance.
+
+### ✅ Real-time Syntax & Semantic Validation
+Instant feedback on syntax and semantic errors as you type. The built-in engine performs in-depth validation of types, units, and references, following the official OpenSCENARIO 2 specification.
 
 ### ⌨️ Professional OSC2 Editor
-Offers advanced syntax highlighting, intelligent code completion, bracket matching, code folding, and other professional features, with full support for scenario, action, and event definitions, as well as the type system, unit declarations, import statements, and other OSC2 language features.
+Advanced syntax highlighting, intelligent code completion, bracket matching, and code folding — everything you need for efficient scenario authoring.
 
-### ⚡ High-Performance C++ Core
-Core algorithms such as parsing, semantic analysis, and 3D rendering are implemented in C++ and compiled to WebAssembly, delivering desktop-class performance within the browser.
+### 🌐 Zero Installation
+Entirely web-based — open your browser and start creating scenarios with no downloads, installations, or configuration required.
 
-### 🌐 Zero Installation, Ready to Use
-Entirely web-based — just open your browser and start creating scenarios with no downloads, installations, or configuration required.
-
-### 🎨 Themes and Internationalization
-Supports light/dark theme switching, with the interface available in English, Chinese, German, and Japanese.
+### 🎨 Internationalization
+Available in English and Chinese.
 
 ## Quick Start
 
-1.  **Open in Browser**: Visit [https://osc2studio.online](https://osc2studio.online) directly, no installation needed.
-2.  **Log In or Try as Guest**: Log in to your account or continue as a guest to start editing immediately. **Please note: Guests cannot use the preview feature; only registered users can access the scene preview functionality.**
-3.  **Write Code**: Write OSC2 code in the professional editor with intelligent suggestions.
-4.  **Real-time Validation**: Syntax and semantic errors are highlighted instantly, with support for importing standard libraries for deep checking.
-5.  **Visual Validation**: After logging in, click preview to see the 3D scene and dynamic playback of your scenario.
-6.  **Export for Use**: Download your completed scenario file for your simulation workflow.
+1. **Open in Browser** — Visit [osc2studio.online](https://osc2studio.online), no installation needed
+2. **Log In or Guest** — Log in or continue as a guest to start editing. Note: guests cannot use the scene preview feature; registered users get full access
+3. **Write OSC2 Code** — Syntax highlighting, auto-completion, and real-time validation as you type
+4. **Preview Scenes & Maps** — 3D scene preview and OpenDRIVE map exploration
+5. **Export** — Download your completed scenarios for simulation
 
-We are actively developing more features to support more complex scenario definitions, a richer action library, and deeper visualization interactions. OSC2 Studio is committed to being your capable companion in exploring and creating OpenSCENARIO 2 scenarios.
+## What's New in v0.0.3
+
+- **OpenDRIVE Map Preview** — import and preview .xodr road networks in 3D
+- **Enhanced Road Rendering** — crosswalks, stop lines, and road markings now render correctly
+- **Enhanced OpenSCENARIO 2 Support** — position modifier with richer usage: range sampling, end targets, relative positioning
+- **Better UX** — double-click to open files, right-click drag to pan in previews
+
+See the [release blog](https://docs.osc2studio.online/blog/release-v0.0.3) for full details.
+
+## Links
+
+- **Website**: [osc2studio.online](https://osc2studio.online)
+- **Documentation**: [docs.osc2studio.online](https://docs.osc2studio.online)
+- **Source Code**: [github.com/osc2studio/osc2studio-frontend](https://github.com/osc2studio/osc2studio-frontend)
