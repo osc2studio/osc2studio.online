@@ -48,5 +48,4 @@ See the [release blog](https://docs.osc2studio.online/blog/release-v0.0.3) for f
 ## Links
 
 - **Website**: [osc2studio.online](https://osc2studio.online)
-- **Documentation**: [docs.osc2studio.online](https://docs.osc2studio.online)
-- **Source Code**: [github.com/osc2studio/osc2studio-frontend](https://github.com/osc2studio/osc2studio-frontend)
+- **Documentation**: [osc2studio.online/doc/intro](https://osc2studio.online/doc/intro)
