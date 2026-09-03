@@ -6,7 +6,7 @@
 
 **OSC2 Studio** is a web-based integrated development environment for OpenSCENARIO 2 (OSC2). It combines a professional editor, real-time syntax and semantic validation, intelligent code completion, 3D scene preview, and OpenDRIVE map exploration — all in your browser with zero installation.
 
-> **Status: 🚀 Under Active Development** — latest release: [v0.0.3](https://github.com/osc2studio/osc2studio-frontend/releases/tag/v0.0.3)
+> **Status: 🚀 Under Active Development** — latest release: [v0.0.3](https://osc2studio.online/doc/blog/release-v0.0.3)
 
 ## Core Features
 
