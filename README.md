@@ -43,7 +43,7 @@ Available in English and Chinese.
 - **Enhanced OpenSCENARIO 2 Support** — position modifier with richer usage: range sampling, end targets, relative positioning
 - **Better UX** — double-click to open files, right-click drag to pan in previews
 
-See the [release blog](https://docs.osc2studio.online/blog/release-v0.0.3) for full details.
+See the [release blog](https://osc2studio.online/doc/blog/release-v0.0.3) for full details.
 
 ## Links
 
